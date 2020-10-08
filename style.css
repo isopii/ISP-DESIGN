@@ -1,0 +1,434 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+.container {
+    text-align: center;
+}
+.headder-list ul {
+    display: inline-block;
+    margin-top: 30px;
+}
+.headder-list ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    color: #C49029;
+}
+
+h1 {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.myname h1 {
+    font-size: 4em;
+    margin: 30px auto;
+}
+.myname h2 {
+    font-size: 30px;
+    padding-bottom: 200px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+.main-page {
+    width: auto;
+    height: 3000px;
+}
+.about-me h2 {
+    font-size: 30px;
+    color: #fff;
+    margin: 100px;
+}
+p {
+    width: 800px;
+    display: inline-block;
+    margin: 200px auto;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+.html-box {
+    margin       : 0px 0;
+    width        : 320px;
+    height       : 40px;
+    background   : #66ff66;
+    border-radius: 10px;
+  }
+  .css-box {
+    margin       : 0px 0;
+    width        : 300px;
+    height       : 40px;
+    background   : #66ff66;
+    border-radius: 10px;
+  }
+  .javascript-box {
+    margin       : 0px 0;
+    width        : 260px;
+    height       : 40px;
+    background   : #66ff66;
+    border-radius: 10px;
+  }
+  .sql-box {
+    margin       : 0px 0;
+    width        : 260px;
+    height       : 40px;
+    background   : #66ff66;
+    border-radius: 10px;
+  }
+  .html-empty {
+    margin       : 0px 50px;
+    width        : 350px;
+    height       : 40px;
+    background   : #fff;
+    border-radius: 10px;
+  }
+  .css-empty {
+    margin       : 0px 50px;
+    width        : 350px;
+    height       : 40px;
+    background   : #fff;
+    border-radius: 10px;
+  }
+  .javascript-empty {
+    margin       : 0px 50px;
+    width        : 350px;
+    height       : 40px;
+    background   : #fff;
+    border-radius: 10px;
+  }
+  .sql-empty {
+    margin       : 0px 50px;
+    width        : 350px;
+    height       : 40px;
+    background   : #fff;
+    border-radius: 10px;
+  }
+  
+  .illustrator-box {
+    margin       : 0px 0;
+    width        : 260px;
+    height       : 40px;
+    background   : #66ff66;
+    border-radius: 10px;
+  }
+  .photoshop-box {
+    margin       : 0px 0;
+    width        : 260px;
+    height       : 40px;
+    background   : #66ff66;
+    border-radius: 10px;
+  }
+  .premiere-box {
+    margin       : 0px 0;
+    width        : 320px;
+    height       : 40px;
+    background   : #66ff66;
+    border-radius: 10px;
+  }
+  .effects-box {
+    margin       : 0px 0;
+    width        : 300px;
+    height       : 40px;
+    background   : #66ff66;
+    border-radius: 10px;
+  }
+  .illustrator-empty {
+    margin       : 0px 50px;
+    width        : 350px;
+    height       : 40px;
+    background   : #fff;
+    border-radius: 10px;
+  }
+  .photoshop-empty {
+    margin       : 0px 50px;
+    width        : 350px;
+    height       : 40px;
+    background   : #fff;
+    border-radius: 10px;
+  }
+  .premiere-empty {
+    margin       : 0px 50px;
+    width        : 350px;
+    height       : 40px;
+    background   : #fff;
+    border-radius: 10px;
+  }
+  .effects-empty {
+    margin       : 0px 50px;
+    width        : 350px;
+    height       : 40px;
+    background   : #fff;
+    border-radius: 10px;
+  }
+  .frontend-box,.adobe-box {
+      display: inline-block;
+  }
+  .frontend-box {
+    margin: 100px 0 0 200px;
+    float:left;
+    text-align: center;
+  }
+
+  .adobe-box {
+      margin: 100px 200px 0 0;
+      float:right;
+  }
+  h2.frontend-text {
+      color: #fff;
+      margin: 0;
+  }
+  h2.adobe-text {
+    color: #fff;
+    margin: 0;
+  }
+  .frontend-box h3,.adobe-box h3 {
+      margin: 50px 0 10px 0;
+  }
+ .frontend-box p,.adobe-box p {
+     margin: 10px 0 0 0;
+ }
+ p.html-level {
+     text-align: right;
+     width: 350px;
+ }
+ p.css-level {
+    text-align: right;
+    width: 350px;
+}
+p.javascript-level {
+    text-align: right;
+    width: 350px;
+}
+p.sql-level {
+    text-align: right;
+    width: 350px;
+}
+p.illustrator-level {
+    text-align: right;
+    width: 350px;
+}
+p.photoshop-level {
+    text-align: right;
+    width: 350px;
+}
+p.premiere-level {
+    text-align: right;
+    width: 350px;
+}
+p.effects-level {
+    text-align: right;
+    width: 350px;
+}
+.lastboss,.topshubar {
+    width: 500px;
+    margin: 50px ;
+    opacity: 1;
+    margin-top: 100px;
+}
+.lastboss:hover,.topshubar:hover{
+    opacity: 0.5;
+}
+.slide{
+    position   : relative;
+    overflow   : hidden;
+                      /* 画像のサイズに合わせて変更ください */
+    width      : 300px;
+    height     : 300px;
+    margin     : auto;      /* サンプルは中央寄せの背景：白 */
+  }
+   
+   /*=== 画像の設定 ======================================= */
+  .slide img {
+    display    : block;
+    position   : absolute;
+                        /* 画像のサイズを表示エリアに合せる */
+    width      : inherit;
+    height     : inherit;
+    left       : -100%;
+    animation  : slideAnime 20s ease infinite;
+  }
+   
+   /*=== スライドのアニメーションを段差で開始する ========= */
+  .slide img:nth-of-type(1) { animation-delay: 0s }
+  .slide img:nth-of-type(2) { animation-delay: 5s }
+  .slide img:nth-of-type(3) { animation-delay: 10s }
+  .slide img:nth-of-type(4) { animation-delay: 15s }
+  .slide img:nth-of-type(5) { animation-delay: 20s }
+   
+   /*=== スライドのアニメーション ========================= */
+  @keyframes slideAnime{
+     0% { left: -100% }
+     1% { left: 0     }
+    19% { left: 0     }
+    20% { left: 100%  }
+   100% { left: 100%  }
+  }
+  .about-me h2 {
+    position   : relative;
+    overflow   : hidden;
+                      /* 画像のサイズに合わせて変更ください */
+    width      : 300px;
+    height     : 300px;
+    
+    margin     : auto;      /* サンプルは中央寄せの背景：白 */
+  }
+   
+   /*=== 画像の設定 ======================================= */
+  .about-me h2 {
+    display    : block;
+    position   : absolute;
+                        /* 画像のサイズを表示エリアに合せる */
+    width      : inherit;
+    height     : inherit;
+    left       : -100%;
+    animation  : slideAnime 20s ease infinite;
+  }
+   
+   /*=== スライドのアニメーションを段差で開始する ========= */
+  .about-me h2:nth-of-type(1) { animation-delay: 0s }
+  .about-me h2:nth-of-type(2) { animation-delay: 5s }
+  .about-me h2:nth-of-type(3) { animation-delay: 10s }
+  .about-me h2:nth-of-type(4) { animation-delay: 15s }
+  .about-me h2:nth-of-type(5) { animation-delay: 20s }
+
+  .introduce {
+    background-color: cornflowerblue;
+  }
+  .about-me {
+    background-color: rgb(237, 173, 100);
+    
+  }
+  .myskill {
+    background-color: rgb(237, 100, 196);
+    
+  }
+  .works {
+    background-color: rgb(200, 237, 100);
+    height: 600px;
+  }
+  .contact-me {
+    background-color: rgb(237, 100, 100);
+  }
+  .contact-me a {
+      margin: 50px 0 -50px 0;
+      display: block;
+  }
+  .about-me p {
+      margin-top: 60px;
+  }
+ 
+  
+
+
+
